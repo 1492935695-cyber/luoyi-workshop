@@ -26,3 +26,6 @@ dialog{border:0;border-radius:8px;color:var(--ink);background:#fff;max-width:440
 #quantities{height:40px;max-width:540px;margin:0 auto 4px;display:flex;justify-content:space-between;align-items:center;gap:3px}#quantities .world-label{position:static!important;transform:none;box-shadow:none;border:0;border-radius:0;background:transparent;white-space:nowrap;padding:0 2px;font-size:13px;gap:4px}#quantities b{font-size:20px}#dialogue{height:74px;min-height:74px}
 @media(max-width:359px){#dialogue{height:64px;min-height:64px}#quantities .world-label{font-size:12px}}
 @media(orientation:landscape) and (max-height:600px){#dialogue{height:126px;min-height:0}#quantities{width:100%;height:35px}#quantities .world-label{font-size:11px;gap:2px}#quantities b{font-size:16px}#quantities rt{font-size:8px}}
+#dialogue{height:82px;min-height:82px}
+@media(max-width:359px){#dialogue{height:72px;min-height:72px}}
+@media(orientation:landscape) and (max-height:600px){#dialogue{height:126px;min-height:0}}

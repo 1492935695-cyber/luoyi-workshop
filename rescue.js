@@ -18,7 +18,7 @@ function iconize(){window.lucide?.createIcons()}
 function stopVoice(){voiceToken++;clearTimeout(audioTimer);voiceQueue=[];voicePurpose='feedback';audio.pause();audio.removeAttribute('src');audio.load()}
 function voiceFailed(token){if(token!==voiceToken)return;clearTimeout(audioTimer);audio.pause();voiceQueue=[];voicePurpose='feedback';$('voiceRetry').hidden=muted}
 function playLine(key){
- currentLine=key;const line=lines[key];$('speaker').textContent=line[0];$('message').textContent=line[1];voiceSpeaker=line[2];
+ currentLine=key;const line=lines[key];$('speaker').textContent=line[0];$('message').textContent=C.captions[key]||line[1];voiceSpeaker=line[2];
  if(muted||paused)return;const token=++voiceToken;clearTimeout(audioTimer);audio.src='rescue-audio-v2/'+key+'.mp3';
  audioTimer=setTimeout(()=>voiceFailed(token),8000);audio.play().catch(()=>voiceFailed(token));
 }
