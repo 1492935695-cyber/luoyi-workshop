@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "lines": {
+    "welcome": {
+      "speaker": "小兔",
+      "text": "小兔说，珞伊，对岸开野餐啦！点伙伴上船，再点一下就能下船。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "440528df561f0147c176a20f2e3a2a6e59af04431b3097a9a8d610d81ff20741"
+    },
+    "controls": {
+      "speaker": "王老师",
+      "text": "王老师说，我来开船。三个座位，坐不下的等下一趟。安排好了，就点出发。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "61e1d97e8f7ca8d360f46a9c88974b42410dcb15d5b9a6b4e50a5de9201b2889"
+    },
+    "firstRule": {
+      "speaker": "小兔",
+      "text": "小兔说，我要先去铺野餐垫！第一趟带上我，其他伙伴也要接过去哦。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "bfa43d03cef50b18bf23a6938d847aba0f5a39ea562dc8bbda07e0e9d05b12e9"
+    },
+    "pairRule": {
+      "speaker": "李欣袆",
+      "text": "李欣袆说，我想和杨诗然坐同一趟，一起看荷花。船有两个座位，把大家都接过去吧！",
+      "role": "xin",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "a1ce339d7f4c4ea0266e1655ab5ffed7bed6e9f8c503ee700b9aafb0e0e166df"
+    },
+    "smallRule": {
+      "speaker": "乔治哥哥",
+      "text": "乔治哥哥说，小船来接班啦！只有两个座位，五个伙伴，试试三趟以内都接到。",
+      "role": "george",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "255141eea502c0e31f65dec6f423e72f77661fc949ec8a29ee48461bda628a59"
+    },
+    "basketRule": {
+      "speaker": "汤葭荟",
+      "text": "汤葭荟说，四个伙伴去野餐。篮子先占一个座位，第一趟还能坐几位？送到后就腾出座位啦！",
+      "role": "tang",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "753f741b8b5409495a33557a124db58de5380d80a5461112c54f79582d2f124b"
+    },
+    "homeRule": {
+      "speaker": "杨诗然",
+      "text": "杨诗然说，三个伙伴想一起看夕阳。船有三个座位，这次一趟就出发！",
+      "role": "yang",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "db18321cd49b6ffc525cbbe580aa11759c4aaf86da56327a0569b2fd898b9dba"
+    },
+    "empty": {
+      "speaker": "王老师",
+      "text": "先点一位等船的伙伴，上船再出发吧。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "b01d4ba1d28d65ef36b900758107a804b5e204f798304d70d6ecd5a307b51931"
+    },
+    "full": {
+      "speaker": "王老师",
+      "text": "乘客座位坐满啦！可以出发，也可以点船上的伙伴，下船换一位。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "58211e0f9f87fc322fab0b5d2f923284932b8ad29c506fe6f2017fe0a9247dd0"
+    },
+    "hintFree": {
+      "speaker": "王老师",
+      "text": "数数船上的伙伴，再看看岸上。每次想接谁，由你来安排。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "53d1e2cf7fa18d43c5e76740256927de057b7dcbca0a8d7a49f82d0932666dc4"
+    },
+    "hintFirst": {
+      "speaker": "小兔",
+      "text": "别忘啦，我要先到对岸铺垫子。第一趟带上我就行。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "bc65a3600cebb07a5acb3e95fe6593edb869194f678a4b6fb6171c747fb96bef"
+    },
+    "hintPair": {
+      "speaker": "李欣袆",
+      "text": "我和杨诗然要坐在同一条船上。看看船上，是不是我们两个人？",
+      "role": "xin",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "6a1bcf4d713c63aae848789c5aff8de13a1fbdc010fbf885d80935b97e7e747f"
+    },
+    "hintBudget": {
+      "speaker": "王老师",
+      "text": "看看剩下的伙伴和船位。剩下的趟数够吗？也可以撤回上一趟，换个安排。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "8c46c609bc3d324ce8a30ecac6f9d5e19224adc6b47103a759418b1ba3f00686"
+    },
+    "hintBasket": {
+      "speaker": "汤葭荟",
+      "text": "看见船上的篮子了吗？它占一个座位。篮子到岸后，三个座位就都能坐伙伴了。",
+      "role": "tang",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "8f8a160b9906c22e7cc8a402ac9584578c853896dede214898d60d3cf5cfa8ee"
+    },
+    "hintHome": {
+      "speaker": "杨诗然",
+      "text": "这次只去一趟。岸上还在等的伙伴，也要一起上船哦。",
+      "role": "yang",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "d92b714a6e7624e1c148a9f2efaad6ea41cc3aac9a02d9ddbfc8b2fd30d1c49a"
+    },
+    "firstError": {
+      "speaker": "小兔",
+      "text": "我还没上船呢，第一趟要带上我去铺野餐垫。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "404b873351952e29b503234d59a80ca6f6ba471b9ba84ecde5bfe051b433b86a"
+    },
+    "pairError": {
+      "speaker": "李欣袆",
+      "text": "等一下，我和杨诗然要同船。可以让我们一起上船，也可以先接其他伙伴。",
+      "role": "xin",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "3c8ee4c5b83443ea7c54771181f6438451bb762417e574827b28cd3bfdbc2950"
+    },
+    "budgetMiss": {
+      "speaker": "王老师",
+      "text": "大家都到了。这次多跑了几趟也没关系，可以换个办法，重新安排。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "dc384aa769ed5c695d8b6c3193c933ef8ae9153509c774c6cdd1b53ecc1da1d3"
+    },
+    "arrived": {
+      "speaker": "小兔",
+      "text": "到岸啦！小船回来接下一批伙伴。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "89c3b4b292766b86a310564677599a9478086a1f34cfd303c3e410e8970af957"
+    },
+    "cargoArrived": {
+      "speaker": "汤葭荟",
+      "text": "篮子送到啦！现在三个座位都空出来了，接上剩下的伙伴吧。",
+      "role": "tang",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "c0ead88bc0d78f45122f7f334dea9a1a6fb84f3fd5e93719177b0a709aa104c2"
+    },
+    "winFree": {
+      "speaker": "小兔",
+      "text": "小兔说，你把大家都接来啦，野餐开场！下一站，我有一件事想请你帮忙。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "a89f767714c8c2e8336248cce30cdfd8fb5f092de367dd678c777686f0e4f4c5"
+    },
+    "winFirst": {
+      "speaker": "小兔",
+      "text": "小兔说，我先到岸铺好了垫子，大家也都到了！你记住了先后顺序。",
+      "role": "rabbit",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "6fbdedbd15bdc250bceb842351d45cba481321af026d3f3e1984cb4f868b31dc"
+    },
+    "winPair": {
+      "speaker": "李欣袆",
+      "text": "李欣袆说，我和杨诗然一起看到了荷花，大家也都到啦！你把同船的约定安排好了。",
+      "role": "xin",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "30c4a0c64c98b350461e0fcb3133c430ca8bff006fca3ba8e4e7edc7b3ee59aa"
+    },
+    "winBudget": {
+      "speaker": "乔治哥哥",
+      "text": "乔治哥哥说，两个座位，三趟就接齐五个伙伴！你的安排让小船少跑了冤枉路。",
+      "role": "george",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "e4b3afbeeb8c173a5c93a3b4e86eb3290d58b2b21512918d6774b969c959838f"
+    },
+    "winBasket": {
+      "speaker": "汤葭荟",
+      "text": "汤葭荟说，篮子和伙伴都到齐啦！你发现篮子送到以后，就多了一个空位。",
+      "role": "tang",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "c82d7c22ea02fd9c846dcf20be40d8cd10cfab06a6ed9ba076b48aae165234b7"
+    },
+    "winHome": {
+      "speaker": "杨诗然",
+      "text": "杨诗然说，三个伙伴一起到啦！珞伊，谢谢你带大家来看夕阳。",
+      "role": "yang",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "eba3ae8cc8b2e0e1e76fe2b593e40291aceb8a01993cdd668b5435212bf0c9af"
+    },
+    "undo": {
+      "speaker": "王老师",
+      "text": "回到出发前了，照你的想法重新安排吧。",
+      "role": "captain",
+      "voice": "zh-CN-YunyangNeural",
+      "signature": "19e32be00200098cedd266d4fad96b5d537238e548967145514f38aa5b618adc"
+    }
+  }
+}
