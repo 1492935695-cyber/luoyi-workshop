@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "lines": {
+    "welcome": {
+      "who": "rabbit",
+      "text": "小兔说，珞伊，来放风筝呀！听伙伴的话，点一个伙伴，把风筝送过去。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "003d6391ad508fef57536ef646bb7837f217b768bac5d0804ca616a3435c5e40"
+    },
+    "r0": {
+      "who": "rabbit",
+      "text": "请把风筝给我，我来系尾巴。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "8be68a55debf686b0a60988c404b6cf78a40d1fa3413c56eba02c256571139cd"
+    },
+    "r1": {
+      "who": "xin",
+      "text": "李欣袆说，杨诗然，风筝给你，你来拿着。",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "f24156452aab5c970c55000d0a9fb1143b68c1d19ff0afc195bfa8c614016f2d"
+    },
+    "r2": {
+      "who": "yang",
+      "text": "杨诗然说，汤葭荟，哥哥会试飞，把风筝给他吧。",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "f7f376a36986f2800eed8b23701a60c03697d18bad64d17232196834731c5408"
+    },
+    "r3": {
+      "who": "george",
+      "text": "乔治哥哥说，李欣袆，请把风筝给我，我来收线。",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "6ec7a3d6101ec67410c485eacfbdba463c2d7b7e556f2a7843ea99954a57851f"
+    },
+    "r4": {
+      "who": "tang",
+      "text": "汤葭荟说，小兔，风筝给你，你来放飞。",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "64972d431ad63e5aa8f93321bb448e8aa11b48961999d54e919656bbe09d4b53"
+    },
+    "h0": {
+      "who": "rabbit",
+      "text": "看看谁正在说话。说话的人说“我”，就是指自己。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "b80a5184d14457227d9236c855ab3197ef64477d33343365647cdf03df6959cd"
+    },
+    "h1": {
+      "who": "xin",
+      "text": "我在对杨诗然说话。“你”，指我正在对话的伙伴。",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "c20207c64854e42e59bbbfeb32e4bbac88e50cefcac6d2d0b5af8786dfc4bfa5"
+    },
+    "h2": {
+      "who": "yang",
+      "text": "我和汤葭荟正在说话。“他”，指我们提到的乔治哥哥。",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "c92e88c5a89d427bc16dc2ae61622c86ead803ca6885a7327b5084b88ed30c6f"
+    },
+    "h3": {
+      "who": "george",
+      "text": "这次换我说话了。“我”指说话的自己，不总是小兔哦。",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "457d9716e286015e4357b3142e0c1680e480a9dace5fc3b5b40b758cbd85aecc"
+    },
+    "h4": {
+      "who": "tang",
+      "text": "看看我正在对谁说话。这次，“你”指小兔。",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "c0150c5bdc5fe02533ae9d9e4eecfeb56048f5f3d0366ab2233c865c08f96aa2"
+    },
+    "w0": {
+      "who": "rabbit",
+      "text": "谢谢珞伊！你听懂“我”指说话的自己，尾巴系好啦！",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "494096a3ae1a2b41ae8765be528d9e8d5c287c0fc6bdfe61ac086b3f39d509c5"
+    },
+    "w1": {
+      "who": "xin",
+      "text": "送到啦！你找到了我正在对话的伙伴，“你”就是杨诗然。",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "147f92f4541bf95c7cb0437dd86215063b7b0a4c4644c97d822331b17dc01497"
+    },
+    "w2": {
+      "who": "yang",
+      "text": "你把风筝送给了我们提到的哥哥，他把风筝放起来啦！",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "013be3e56dca27ea2638f481ff1fe1771632cfc93852ec537c8c08c11da0767d"
+    },
+    "w3": {
+      "who": "george",
+      "text": "谢谢！换我说话，“我”就指我了。你发现了这个变化！",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "ce983b5e51bf6b782d2e5d6907888ad264f584814cb00f8fffd9685d6158c1ea"
+    },
+    "w4": {
+      "who": "tang",
+      "text": "你听懂了新的对话！小兔接到风筝，珞伊，我们一起放飞吧！",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "68663cb99d9fd5235fd32610c9c411e841d39583c1f72cc1c624497069a50be7"
+    },
+    "retry": {
+      "who": "rabbit",
+      "text": "风筝送到这里啦。再看看谁在说话、对谁说话，也可以点灯泡听线索。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "2b531d90abebef529cf220229f80c84865fee671e7743b2fbc91c0ab7d105163"
+    },
+    "director": {
+      "who": "rabbit",
+      "text": "小兔说，珞伊当导演啦！选谁说话、对谁说，再选“我”或“你”。点放飞，看看风筝会找谁。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "d57e1a240aa8e7148025440bca3b17c972aafd2738b3ed2c263a66b82e44e12f"
+    },
+    "finish": {
+      "who": "rabbit",
+      "text": "小兔说，珞伊，风筝飞起来啦！想编自己的对话，就来当小导演；也可以先休息。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "d59a50a4125e3f06da2d106dd89a93e8af2c6203505bab46cb824c1db194f70d"
+    },
+    "rabbitMe": {
+      "who": "rabbit",
+      "text": "小兔说，请把风筝给我。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "d2fe5ef30c7ea47eeae906c4e9aa933c07383bcd7b3daa355954e427c81ab1de"
+    },
+    "rabbitYou": {
+      "who": "rabbit",
+      "text": "小兔说，风筝给你。",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "signature": "567dfc05f73a19eb81a6b6d4d78ea57cd1f4b8176d5c4625f009e0ddc231048e"
+    },
+    "xinMe": {
+      "who": "xin",
+      "text": "李欣袆说，请把风筝给我。",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "fb35614b82318477f06f17fe0b65fe6573c50ad1db2e2bb3fe54c6a704873517"
+    },
+    "xinYou": {
+      "who": "xin",
+      "text": "李欣袆说，风筝给你。",
+      "voice": "zh-CN-XiaoyiNeural",
+      "signature": "685090a0ca6795f7c375da28ed5ce80a56bb3981ecb91af870dae78261381c2f"
+    },
+    "georgeMe": {
+      "who": "george",
+      "text": "乔治哥哥说，请把风筝给我。",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "7e7e5c5dcbdf84f360b8fe6d6dcf45cf5f41406b1ebfe33c9b53cad7550e2608"
+    },
+    "georgeYou": {
+      "who": "george",
+      "text": "乔治哥哥说，风筝给你。",
+      "voice": "zh-CN-YunxiNeural",
+      "signature": "a310f020c075a5fecaec8f0589029babeca4becaa3f2f9785ab19216944bdc21"
+    },
+    "yangMe": {
+      "who": "yang",
+      "text": "杨诗然说，请把风筝给我。",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "4841171a49e8a41b1202df98cfa78be4f254b172449fce1736c73d35feea43f9"
+    },
+    "yangYou": {
+      "who": "yang",
+      "text": "杨诗然说，风筝给你。",
+      "voice": "zh-TW-HsiaoChenNeural",
+      "signature": "919bb265b772ba9798666dc816e3e4d6061ee09190ae142d9613f3c2b16ceae9"
+    },
+    "tangMe": {
+      "who": "tang",
+      "text": "汤葭荟说，请把风筝给我。",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "dfe66b83c38a81eb8ad294589c02cb53b1f4fb57f5f43be9a7375270d1085c8d"
+    },
+    "tangYou": {
+      "who": "tang",
+      "text": "汤葭荟说，风筝给你。",
+      "voice": "zh-TW-HsiaoYuNeural",
+      "signature": "e89968a46fea8738bbccae8428e1c57373154ee8efa4e9a412ba25295e94a1b2"
+    }
+  }
+}
