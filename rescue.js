@@ -143,7 +143,8 @@ function finish(){
  if($('finish').open||paused)return;showFinishAt=0;
  $('finishText').textContent='你用了 '+state.trips.length+' 趟，把五个伙伴都送到了。';
  $('journey').replaceChildren();state.trips.forEach((trip,i)=>{const div=document.createElement('div');div.className='trip-group';const label=document.createElement('span');label.textContent='第'+(i+1)+'趟';const n=document.createElement('b');n.textContent=trip.length;const dots=document.createElement('div');dots.className='trip-dots';trip.forEach(()=>dots.appendChild(document.createElement('i')));div.append(label,n,dots);$('journey').appendChild(div)});
- $('reflection').textContent=state.trips.length===2?'两部分合起来，还是五个伙伴。':state.mode==='two'?'大家都到了。想一想，怎样能少去一趟？':'换一种安排，会发生什么呢？';
+ if(state.trips.length===2)$('reflection').innerHTML='<ruby>两部分<rt>liǎng bù fen</rt></ruby><ruby>合起来<rt>hé qǐ lái</rt></ruby>，<ruby>还是<rt>hái shi</rt></ruby><ruby>五个<rt>wǔ ge</rt></ruby><ruby>伙伴<rt>huǒ bàn</rt></ruby>。';
+ else $('reflection').textContent=state.mode==='two'?'大家都到了。想一想，怎样能少去一趟？':'换一种安排，会发生什么呢？';
  $('next').querySelector('span').textContent=state.mode==='free'?'试试两趟接完':'换一种安排试试';$('finish').showModal();
 }
 function newRound(mode){stopVoice();journey=null;showFinishAt=0;boat.position.z=.5;state=S.fresh(mode);state.started=true;reposition(false);updateUI();save();say(mode==='two'?'two':'intro')}
