@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f5f0e4"><title>珞伊的奇想工坊 · 风车快递</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main id="app">
+ <header><img src="badge-small.jpg" alt="蜻蜓中队班徽"><div><small>珞伊的奇想工坊</small><h1>风车快递</h1></div><button id="sound" aria-label="关闭声音" title="声音"><i data-lucide="volume-2"></i></button><button id="parents" aria-label="家长记录"><i data-lucide="notebook-tabs"></i></button></header>
+ <div class="course">数学 ·《1～5的认识》p12–16 选练 <span>创造试玩</span></div>
+ <section id="scene" aria-label="三维改装小车与荷塘路线"><div id="loading">正在打开珞伊的工坊…</div><div id="caption" aria-live="polite">阿栗想带苹果去野餐，你来造一辆小车！</div><button id="view" hidden>看小车</button><div id="distance" hidden></div><div id="toast" aria-live="polite"></div></section>
+ <section id="dock">
+  <div id="buildTools">
+   <div class="dockTitle"><span>点一下，换个想法</span><div id="colors" aria-label="小车颜色"><button data-paint="#dc7463" class="active" aria-label="珊瑚红小车" style="--paint:#dc7463"></button><button data-paint="#55a89f" aria-label="青绿小车" style="--paint:#55a89f"></button><button data-paint="#edbd5c" aria-label="暖黄小车" style="--paint:#edbd5c"></button></div></div>
+   <div class="parts"><button id="wheels" aria-label="更换轮子大小"><i data-lucide="circle-dot"></i><span id="wheelLabel">小轮子</span><small>点一下换大轮</small></button><button id="sails" aria-label="改变风帆数量"><i data-lucide="sailboat"></i><span>风帆 <b id="sailNum">1</b></span><small>0 → 1 → 2 → 3</small></button><button id="apples" aria-label="装上或拿下苹果"><i data-lucide="apple"></i><span>苹果 <b id="appleNum">3</b></span><small>点一下装一颗</small></button></div>
+   <div class="route"><button id="meadow" class="active"><i data-lucide="wind"></i> 风车坡道</button><button id="gate"><i data-lucide="door-open"></i> 树洞小路</button></div>
+  </div>
+  <div id="result" hidden><small id="resultKicker">珞伊的发明</small><h2 id="resultTitle"></h2><p id="resultText"></p><div id="learning"></div></div>
+  <div class="footer"><button id="go"><i data-lucide="play" fill="currentColor"></i><span>开着去野餐</span></button><button id="home" hidden><i data-lucide="wrench"></i><span>回工坊改一改</span></button></div>
+ </section>
+ <dialog id="report"><h2>珞伊的探索记录</h2><p class="muted">仅保存在当前浏览器；不上传，也不自动发给老师。</p><div id="stats"></div><p>数字只描述操作，不代表识字、数学掌握、智力或专注力评分。最值得观察的是：她有没有自己的新想法，愿不愿意再试。</p><p>教材选练：p12–16 的实物计数、一一对应；左右两盒的分与合是 p20–21 的课内延伸。风力、负载、车身高度是游戏里的探索，不是本课达标要求。</p><button id="export">导出这份记录</button><button id="closeReport">回到珞伊的工坊</button></dialog>
+</main>
+<script src="three.min.js"></script><script src="lucide.min.js"></script><script type="module" src="game.js"></script>
+</body></html>
