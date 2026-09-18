@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#d9f1e9">
+  <meta name="color-scheme" content="light">
+  <title>珞伊的荷塘小船长</title>
+  <link rel="icon" href="badge-small.jpg">
+  <link rel="stylesheet" href="rescue.css?v=1">
+  <script>window.rescueWatchdog=setTimeout(function(){if(!window.rescueInspect){document.getElementById('loading').hidden=true;document.getElementById('fatal').hidden=false;document.getElementById('go').disabled=true}},18000);</script>
+  <script defer src="three.min.js" onerror="window.rescueLoadError=true"></script>
+  <script defer src="lucide.min.js"></script>
+  <script defer src="rescue-state.js?v=1"></script>
+  <script defer src="rescue.js?v=1"></script>
+</head>
+<body>
+  <main id="app">
+    <header>
+      <img class="badge" src="badge-small.jpg" alt="蜻蜓中队班徽" width="52" height="52">
+      <div class="identity"><h1>珞伊的荷塘小船长</h1><p>数学 · <ruby>分与合<rt>fēn yǔ hé</rt></ruby> · 第20—21页选练</p></div>
+      <button id="sound" class="tool" aria-label="关闭声音" title="关闭声音"><i data-lucide="volume-2"></i></button>
+      <button id="pause" class="tool" aria-label="暂停" title="暂停"><i data-lucide="pause"></i></button>
+    </header>
+    <section id="stage" aria-label="荷塘码头">
+      <canvas id="world" aria-label="五个伙伴乘船去对岸野餐的三维场景"></canvas>
+      <div id="targets" aria-label="乘客"></div>
+      <div id="tripFlag" hidden><span id="modeLabel">自由航行</span><span id="tripCount">已送 0 趟</span></div>
+      <div id="shoreLabel" class="world-label" hidden><ruby>等船<rt>děng chuán</rt></ruby> <b id="shoreCount">5</b></div>
+      <div id="boatLabel" class="world-label" hidden><ruby>船上<rt>chuán shàng</rt></ruby> <b id="boatCount">0</b><small>/ 3</small></div>
+      <div id="farLabel" class="world-label" hidden><ruby>到岸<rt>dào àn</rt></ruby> <b id="farCount">0</b></div>
+      <div id="loading" role="status"><span class="loading-dot"></span>小船正在靠岸…</div>
+      <div id="fatal" hidden role="alert"><p>小船暂时没有加载出来。</p><button onclick="location.reload()"><i data-lucide="rotate-cw"></i>重新打开</button></div>
+    </section>
+    <footer>
+      <div id="dialogue" aria-live="polite"><span id="speaker">荷叶船长</span><p id="message">对岸开野餐啦，五个伙伴等你来接！</p></div>
+      <div id="actions">
+        <button id="undo" class="tool" hidden aria-label="撤回上一趟" title="撤回上一趟"><i data-lucide="undo-2"></i></button>
+        <button id="go" class="primary"><i data-lucide="ship"></i><span>我来安排</span></button>
+        <button id="hint" class="tool" hidden aria-label="听一个线索" title="听一个线索"><i data-lucide="lightbulb"></i></button>
+        <button id="replay" class="tool" hidden aria-label="再听一次" title="再听一次"><i data-lucide="volume-2"></i></button>
+      </div>
+      <p id="storageWarning" hidden>记录暂时无法保存，请先不要关闭这一页。</p>
+    </footer>
+    <dialog id="finish">
+      <img class="badge" src="badge-small.jpg" alt="蜻蜓中队班徽" width="52" height="52">
+      <h2>珞伊，大家都到啦！</h2>
+      <p id="finishText"></p>
+      <div id="journey" aria-label="实际乘船安排"></div>
+      <p class="reflection" id="reflection"></p>
+      <button id="next" class="primary"><i data-lucide="sailboat"></i><span>试试两趟接完</span></button>
+      <button id="rest" class="secondary"><i data-lucide="sun"></i>今天先到这里</button>
+      <button id="reportFromFinish" class="text-command">家长记录</button>
+    </dialog>
+    <dialog id="menu">
+      <h2>珞伊的小船靠岸休息</h2>
+      <button id="resume" class="primary"><i data-lucide="play"></i>继续航行</button>
+      <button id="report" class="secondary"><i data-lucide="notebook-pen"></i>家长记录</button>
+      <button id="reset" class="secondary"><i data-lucide="rotate-ccw"></i>重新安排这一轮</button>
+      <button id="end" class="text-command">今天先到这里</button>
+    </dialog>
+    <dialog id="parentPanel">
+      <div class="panel-heading"><h2>珞伊的探索记录</h2><button id="closeReport" class="tool" aria-label="关闭记录" title="关闭记录"><i data-lucide="x"></i></button></div>
+      <p class="parent-note">本设备保存，不会自动发给老师或上传。这里只记录操作，不能据此判断识字、专注力、智力或知识掌握。</p>
+      <p>教材：人教版2024审定一年级数学上册，第20—21页《分与合》选练。两趟安排属于思维拓展，不代表覆盖整课。</p>
+      <div id="reportBody"></div>
+      <button id="exportReport" class="secondary"><i data-lucide="download"></i>导出记录</button>
+    </dialog>
+    <dialog id="restPanel"><img class="badge" src="badge-small.jpg" alt="蜻蜓中队班徽" width="52" height="52"><h2>珞伊，今天先到这里</h2><p>小船已经停好啦。</p><button id="backFromRest" class="secondary"><i data-lucide="arrow-left"></i>回到码头</button></dialog>
+  </main>
+</body>
+</html>
